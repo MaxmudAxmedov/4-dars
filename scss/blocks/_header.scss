@@ -1,0 +1,15 @@
+.btn {
+    @include buttonStyle(var(--red-color), 300px);
+}
+
+.btn2 {
+    @include buttonStyle(blue);
+}
+
+.btn3 {
+    @include buttonStyle();
+}
+
+.btn4 {
+    @include buttonStyle(var(--green-color), 100px);
+}

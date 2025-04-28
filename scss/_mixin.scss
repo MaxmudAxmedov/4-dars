@@ -1,0 +1,8 @@
+@mixin buttonStyle ($bg: green, $w: 200px) {
+    width: $w;
+    padding: 6px 32px;
+    border-radius: 8px;
+    background-color: $bg;
+    color: #fff;
+    border: none;
+}
