@@ -6,3 +6,16 @@
     color: #fff;
     border: none;
 }
+@mixin cardStyle ($bg: white, $w: 200px) {
+    width: $w;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: $bg;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+@mixin flexCenter ($direction: row, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
