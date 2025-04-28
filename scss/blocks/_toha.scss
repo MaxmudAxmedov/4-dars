@@ -1,0 +1,9 @@
+.heading__list{
+    padding-left: 50px;
+    padding-right: 50px;
+    @include listflex;
+}
+.heading__item{
+    @include item;
+    margin-top: 100px;
+}
