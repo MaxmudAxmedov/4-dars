@@ -6,3 +6,16 @@
     color: #fff;
     border: none;
 }
+@mixin listflex($bg:'red-color'){
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: $bg;
+    gap: 30px;
+  }
+  @mixin item{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    list-style: none;
+  }
